@@ -1,0 +1,22 @@
+<!-- C.2: OpenStreetMap XML data for YabaTech -->
+<osm version="0.6" generator="openstreetmap-cgimap 2.0.1 (3288086 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <way id="671850885" visible="true" version="8" changeset="152670850" timestamp="2024-06-14T10:47:43Z" user="Abdulaziz Jimoh" uid="11634354">
+    <!-- Node references -->
+    <nd ref="6291446591"/>
+    <!-- ... rest of the node references ... -->
+    <nd ref="6291446591"/>
+
+    <!-- Location and institution details -->
+    <tag k="addr:street" v="Herbert Macaulay Way"/>
+    <tag k="alt_name" v="Yabatech"/>
+    <tag k="amenity" v="college"/>
+    <tag k="contact:phone" v="+234 7037431055"/>
+    <tag k="loc_name" v="YabaTech"/>
+    <tag k="name" v="Yaba College of Technology"/>
+    <tag k="short_name" v="YCT"/>
+    <tag k="surface" v="unpaved"/>
+    <tag k="website" v="https://www.yabatech.edu.ng/"/>
+    <tag k="wikidata" v="Q8046341"/>
+    <tag k="wikipedia" v="en:Yaba College of Technology"/>
+  </way>
+</osm>

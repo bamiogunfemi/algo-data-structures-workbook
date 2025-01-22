@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<university name="Test University">
+    <!-- Empty attribute -->
+    <department code=""/>
+    
+    <!-- Escaped special characters in attributes -->
+    <faculty id="F1" title="Science &amp; Technology"/>
+    
+    <!-- Nested elements with broken attributes -->
+    <students>
+        <student id="1" email="john@test.com"/>
+        <student id="2" email=""/>
+        <student id="3" email="mary&lt;&gt;test.com"/>
+    </students>
+    
+    <!-- Multiple broken attributes in one element -->
+    <course code="" name="Programming &amp; Algorithms" seats="20&lt;"/>
+    
+    <!-- Deeply nested with broken attributes -->
+    <buildings>
+        <block name="A">
+            <floor number="1">
+                <room id="" capacity="30" type="Lab &amp; Workshop"/>
+                <room id="102" status="&lt;under renovation&gt;"/>
+            </floor>
+        </block>
+    </buildings>
+    
+    <!-- Different types of problematic characters -->
+    <library>
+        <book id="1" title="C++ &amp; Java"/>
+        <book id="2" title="Programming &apos;Basics&apos;"/>
+        <book id="3" title=""/>
+        <book id="4" title="XML &amp; Database"/>
+    </library>
+</university>
